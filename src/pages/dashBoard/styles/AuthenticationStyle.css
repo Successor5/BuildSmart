@@ -1,33 +1,46 @@
-.mai1 {
-  background-color: black;
+.mai2 {
+  background-color: rgba(16, 15, 15, 0.992);
+  height: 100vh;
+  border: solid 2pt black;
+  overflow:hidden;
+  color: white;
   height: 100vh;
   border: solid 2pt black;
   overflow:hidden
 }
 
-.small{
+.small2{
   display: flex;
+  justify-content: center;
+  width: 9cm;
   justify-content: space-between;
   width: 8cm;
   margin-left: 1cm;
   margin-top: 2cm; 
 }
 
-.box1 {
-    background-color: rgb(167, 172, 172);
-    height: 2cm;
-    width: 2cm;
+.box2 {
+    background-color: rgb(50, 53, 53);
+    height: 1cm;
+    width: 6cm;
+    text-align: center;
+    outline: none;
   }
-  
-  .box2 {
-    height: 2cm;
+  button{
+    margin-top: 2cm;
+    height: 1cm;
     width: 2cm;
-    background-color: rgb(196, 200, 204);
+    background-color: rgba(213, 185, 24, 0.727)
   }
-  
-  .box3 {
-    height: 2cm;
-    width: 2cm;
-    background-color: rgb(94, 96, 96);
+  .a2{
+    height: 10cm;
+    width: 11cm;
+    margin-right: 78cm;
+    margin-top: 1.5cm;
+    
+
   }
-  
+  .o2{
+    margin-top: -3cm;
+    text-align: center;
+  }

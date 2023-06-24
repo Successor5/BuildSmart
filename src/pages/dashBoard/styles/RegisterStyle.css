@@ -1,11 +1,13 @@
-.mai {
+/* .mai {
   background-color: rgba(9, 9, 9, 0.969);
   height: 99vh;
   border: solid 2pt rgb(14, 14, 14);
   color: white;
   overflow-x: hidden;
 }
-
+.w{
+  font-size: small;
+}
 .a {
   margin-left: 10px;
   font-family: 'Times New Roman', Times, serif;
@@ -14,6 +16,20 @@
 }
 
 .b {
+  font-size: larger;
+  cursor: pointer;
+  float: right;
+  margin-right: 67cm;
+  width: 1cm;
+}
+.log{
+  width: 3cm;
+}
+
+.c {
+  margin-left: 10%;
+  width: 50%; 
+  max-height: 8cm;
   margin-right: 0px; 
   font-size: larger;
   cursor: pointer;
@@ -23,8 +39,8 @@
 
 .c {
   margin-left: 10%;
-  width: 50%; /* Adjust as needed */
-  max-height: 8cm; /* Adjust as needed */
+  width: 50%; 
+  max-height: 8cm; 
 }
 
 .single-line-input,
@@ -44,7 +60,7 @@
 .semiMain {
   background-color: rgba(9, 9, 9, 0);
   width: 80%;
-  margin: 3cm auto 0; /* Adjust the margin values to shift the container down */
+  margin: 3cm auto 0;
   height: 10cm;
 }
 
@@ -87,5 +103,235 @@
     font-size: larger;
     cursor: pointer;
     float: right;
+  }
+} */
+.mai{
+  background-color: rgb(21, 20, 20);
+  border: solid 2pt rgb(17, 15, 15);
+  overflow: hidden;
+  color: rgb(240, 223, 223);
+  height: 98vh;
+}
+
+.w {
+  font-size: small;
+}
+.last{
+  /* border:solid 2pt red; */
+  display:flex;
+  height:80.2vh;
+}
+
+.a {
+  /* margin-left: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 234653cm;
+   */
+  margin-bottom:2cm;
+  /* border: solid 2pt red; */
+  height: 8cm;
+  margin-left: 2cm;
+}
+.single-line-input{
+  background-color: pink;
+}
+
+.b {
+  font-size: larger;
+  cursor: pointer;
+  float: right;
+  margin-right: 67cm;
+  width: 1cm;
+}
+
+.log {
+  width: 3cm;
+}
+
+.c {
+  margin-left: 10%;
+  width: 50%;
+  max-height: 8cm;
+  margin-right: 0px;
+  font-size: larger;
+  cursor: pointer;
+  float: right;
+}
+
+.single-line-input,
+.x,
+.y,
+.j {
+  background-color: rgba(23, 23, 110, 0.108);
+  color: rgb(127, 120, 120);
+  border-radius: 0.3cm;
+  margin-top: -1cm;
+  height: 1cm;
+  width: 60%;
+  border: none;
+  outline: none;
+}
+
+.semiMain {
+  background-color: rgba(9, 9, 9, 0);
+  width: 50%;
+  margin: -2cm auto 0;
+  height: 11cm;
+  /* border: solid 2pt red; */
+  margin-top: 3cm;
+  margin-right: 8cm;
+  
+}
+.sign-up-button {
+  background-color: rgb(7, 7, 6);
+  color: rgb(249, 248, 248);
+  border: none;
+  border-radius: 0.3cm;
+  padding: 0.5cm 1cm;
+  margin-top: -3cm;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  margin-right: -3cm;
+    /* border: solid 2pt red; */
+
+
+}
+
+.sign-up-button:hover {
+  transform: scale(1.05);
+}
+.o{
+  border: solid 2pt black;
+  width: 3cm;
+  margin-left: 5cm;
+  height: 1cm;
+  background-color: yellow;
+  border-radius: 0.6cm;
+  color: black;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .mai{
+    overflow: scroll;
+  }
+  .o{
+    margin-left: 2cm;
+    margin-top: 1cm;
+  }
+  .a{
+    height: 10cm;
+    width: 12cm;
+  }
+  .b,
+  .c,
+  .d,
+  .semiMain,
+  .smallMain{
+    margin-top: -2cm;
+    width: 20cm;
+    display: center;
+  }
+  .single-line-input,
+  .x,
+  .y,
+  .j {
+    margin: 0.4cm;
+    width: 90%;
+    font-size: 90%;
+    height:20%;
+     
+  
+  }
+  .last{
+    height: 20cm;
+    display:contents
+  }
+
+  .b {
+    margin-right: 9888cm;
+    font-size: larger;
+    cursor: pointer;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+ 
+  .mai {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mai{
+    overflow: scroll;
+    width: 9.4cm;
+    background-color: rgba(9, 9, 9, 0.969);
+  }
+    .a{
+      width: 7cm;
+      margin-right: 2cm;
+      height: 4cm;
+    }
+  .b,
+  .c,
+  .d,
+  .semiMain,
+  .smallMain{
+    width: 7cm;
+    height: 5cm;
+    margin: 0.1cm;
+    margin-left: 0.6cm;
+    margin-top: -1cm;
+    /* border: solid 2pt red; */
+  }
+   .o{
+    margin-right: 87cm;
+
+   }
+  .single-line-input,
+  .x,
+  .y,
+  .j {
+    margin: 0.4cm;
+    width: 90%;
+    font-size: 80%;
+
+  }
+  .b {
+    margin-right: 9888cm;
+    font-size: larger;
+    cursor: pointer;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .mai{
+    overflow: scroll;
+    width: 10.9cm;
+    background-color: rgba(9, 9, 9, 0.969);
+  }
+  .a{
+    margin-right: 5cm;
+  }
+  .smallMain{
+    margin-right: 92cm;
+    width: 1cm;
+    border: solid 2pt blue;
+  }
+  .j{
+    width: 6.3cm;
+    margin-right:61cm;
+  }
+  .x{
+    width: 6.3cm;
+    margin-right:91cm;
+  }
+  .y{
+    width: 6.3cm;
+    margin-right:91cm;
+   
   }
 }

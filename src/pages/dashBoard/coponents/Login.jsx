@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../styles/LoginStyle.css";
-import pic from "../../../MyAssets/Screenshot 2023-06-07 133228.png";
-import picture from "../../../MyAssets/Screenshot 2023-06-09 153021.png";
+import picture1 from "../../../MyAssets/Screenshot 2023-06-09 153021.png";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -23,37 +22,34 @@ function Login() {
   };
 
   return (
-    <div className="main">
-      <h1 className="b">Sign Up</h1>
-      <img src={picture} alt="" className="a" />
-      <div className="semiMain">
-        <div className="smallMain">
+    <div className="main1">
+      <h1 className="w1" onClick={()=>{window.location.href = "/"}}>Sign Up</h1>
+      <img src={picture1} alt="" className="a1" />
+      <div className="smallMain1">
+        {/* <div className="smallMain1"> */}
           <h3>Email</h3>
           <input
             type="email"
             id="emailInput"
-            className="x"
+            className="x1"
             placeholder="Enter email"
             value={email}
             onChange={handleEmailChange}
           />
-          <h3 className="text1">Password</h3>
+          <h3 className="textt">Password</h3>
           <input
             type="password"
             id="passwordInput"
-            className="x"
+            className="x1"
             placeholder="Enter password"
             value={password}
             onChange={handlePasswordChange}
           />
         </div>
-        {isButtonVisible && (
-          <button className="sign-up-button" onClick={handleFormSubmit}>
+          <button className="sign-up-button1" onClick={handleFormSubmit}>
             Log In
           </button>
-        )}
       </div>
-    </div>
   );
 }
 

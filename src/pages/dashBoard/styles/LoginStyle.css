@@ -1,29 +1,33 @@
-.main {
-    background-color: black;
+/* .main1 {
+    background-color: rgb(18, 17, 17);
     height: 99vh;
     border: solid 2pt rgb(7, 7, 7);
     color: white;
     overflow-x: hidden;
+    font-size:x-small;
   }
   
-  .a {
-    margin-left: 10px; /* Adjust as needed */
+  .a1 {
+    margin-left: 10px; 
     font-family: 'Times New Roman', Times, serif;
     float: left;
+    border: solid 2pt red;
+    width: 2cm;
+    height: 100cm;
   }
   
-  .b {
-    margin-right: 10px; /* Adjust as needed */
+  .b1 {
+    margin-right: 10px; 
     font-size: larger;
     cursor: pointer;
     float: right;
   }
   
   
-  .c {
+  .c1 {
     margin-left: 10%;
-    width: 50%; /* Adjust as needed */
-    max-height: 8cm; /* Adjust as needed */
+    width: 50%; 
+    max-height: 8cm; 
   }
   
   .single-line-input,
@@ -40,18 +44,25 @@
     outline: none;
   }
   
-  .semiMain {
+  .semiMain1 {
     background-color: rgba(9, 9, 9, 0);
     width: 80%;
-    margin: 3cm auto 0; /* Adjust the margin values to shift the container down */
+    margin: 3cm auto 0; 
     height: 10cm;
   }
   
-  .smallMain {
+  .smallMain1 {
     margin-right: 20%;
+    margin-top: 3cm;
+    border: solid 2pt red;
+  }
+  .a1 {
+    margin-bottom:2cm;
+    height: 8cm;
+    margin-left: 2cm;
   }
   
-  .sign-up-button {
+  .sign-up-button1 {
     background-color: yellow;
     color: black;
     border: none;
@@ -60,27 +71,123 @@
     margin-top: 1cm;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
+    margin-right: 4cm;
+    height:0.5cm;
   }
   
-  .sign-up-button:hover {
+  .sign-up-button1:hover {
     transform: scale(1.05);
   }
-  
-  @media screen and (max-width: 768px) {
-    .a,
-    .b,
-    .c,
-    .d,
-    .semiMain,
-    .smallMain,
-    .single-line-input,
-    .x,
-    .y,
-    .j {
-      margin: 0.4cm;
-      width: 90%;
-      font-size: 80%;
-    }
-    
+  .x1{
+    border-radius: 2cm;
+    height: 0.8cm;
+    outline: none;
+    width: 6cm;
+  }
+   */
+   .a1{
+    height: 10cm;
+    width: 11cm;
+    margin-right: 78cm;
+    margin-top: 1.5cm;
+
+
+   }
+   .main1 {
+    background-color: rgb(18, 17, 17);
+    height: 99vh;
+    border: solid 2pt rgb(7, 7, 7);
+    color: white;
+    overflow-x: hidden;
+    font-size:x-small;
   }
   
+  .sign-up-button1 {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 0.3cm;
+    padding: 0.5cm 1cm;
+    margin-top: 1cm;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    margin-right: 0.2cm;
+    height:0.5cm;
+  }
+  
+  .sign-up-button1:hover {
+    transform: scale(1.05);
+  }
+  .x1{
+    border-radius: 2cm;
+    height: 1.3cm;
+    outline: none;
+    width: 12cm;
+    background-color: rgba(23, 23, 110, 0.108);
+    color: white;
+    font-size:large
+  }
+  .smallMain1 {
+    margin-top: -4cm;
+    width:16cm;
+    margin-left: 10cm;
+  }
+  .w1{
+    margin-right: 30cm;
+    font-size: large;
+  }
+  @media screen and (max-width: 1024px) {
+    .a1{
+      width: 12cm;
+      height: 10cm;
+    }
+    .smallMain1 {
+      margin-top: 3cm;
+      width:fit-content;
+      margin-left: 3.5cm;
+      font-size:x-large;
+    }
+   .x1{
+    font-size:x-large;
+    width: 14cm;
+    height: 2cm;
+   }
+   .w1{
+    margin-right: 18cm;
+    font-size:x-large;
+  }
+  }
+  @media screen and (max-width: 768px) {
+    .a1{
+      width: 5cm;
+      height: 5cm;
+    }
+    .smallMain1 {
+      margin-top: 1cm;
+      width:fit-content;
+      margin-left: 1cm;
+      font-size:large;
+    }
+   .x1{
+    font-size:large;
+    width: 8cm;
+    height: 1.2cm;
+   }
+   .w1{
+    margin-right: 7.6cm;
+    font-size:large;
+  }
+  }
+  @media screen and (max-width:500px) {
+    .smallMain1 {
+      margin-top: 1cm;
+      width:fit-content;
+      margin-left: 0.6cm;
+      font-size:large;
+    }
+   .x1{
+    font-size:large;
+    width: 8cm;
+    height: 1.2cm;
+   }
+  }
