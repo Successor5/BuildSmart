@@ -1,0 +1,113 @@
+.m {
+    background-color: rgb(18, 17, 17);
+    color: aliceblue;
+    font-family: monospace;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .profile-picture {
+    height: 2cm;
+    width: 2cm;
+    border-radius: 50px;
+    margin-left: 0.5cm;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: solid 2pt black;
+    margin-right: 10cm;
+    border-radius: 50px;
+  }
+  
+  .dee {
+    margin-top: 1cm;
+    color: rgb(18, 17, 17);
+    margin-left: -1cm;
+    background-color: yellow;
+    width: 2.2cm;
+  }
+  
+  .mt {
+    outline: none;
+    border: none;
+    background-color: rgb(47, 45, 45);
+    height: 0.7cm;
+    margin-right: 0.2cm;
+    border-radius: 10px;
+  }
+  .cl{
+    margin-top: -5cm;
+    width: 3cm;
+    margin-left: 12cm;
+    border: solid 2pt red;
+
+  }
+  .c2{
+    margin-left: 20cm;
+    margin-top: -59cm;
+    border: solid 2pt red;
+  }
+  .a{
+  margin-right: 34cm;
+    height: 2cm;
+    width: 2cm;
+    margin-top: 1cm;
+  }
+/*   
+  @media screen and (max-width: 480px) {
+    .m2 {
+      margin-left: 1cm;
+      margin-top: 4cm;
+    }
+  
+    .m3 {
+      margin-right: 2cm;
+      
+    }
+  
+    .m4 {
+      margin-left: 2cm;
+      margin-top: 0.5cm;
+    }
+  
+    .profile-picture {
+      height: 1.5cm;
+      width: 1.5cm;
+      margin-left: 0.3cm;
+    }
+  
+    .profile-image {
+      margin-right: 5cm;
+    }
+  
+    .m6 {
+      margin-right: 3cm;
+    }
+  
+    .dee {
+      margin-top: 0.5cm;
+      width: 1.5cm;
+    }
+  
+    .mt {
+      height: 0.5cm;
+      margin-right: 0.1cm;
+    }
+  
+    body {
+      overflow-y: scroll;
+      background-color: rgb(20, 18, 18);
+    }
+  }
+  .cl{
+    margin-top: 1cm;
+    width: 3cm;
+  }
+  .a{
+    margin-right: 34cm;
+    height: 2cm;
+    width: 2cm;
+  } */

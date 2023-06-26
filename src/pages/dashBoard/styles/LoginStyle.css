@@ -90,7 +90,7 @@
     width: 11cm;
     margin-right: 78cm;
     margin-top: 1.5cm;
-
+    overflow-y: hidden;
 
    }
    .main1 {
@@ -113,6 +113,7 @@
     transition: transform 0.3s ease-in-out;
     margin-right: 0.2cm;
     height:0.5cm;
+    width: 3cm;
   }
   
   .sign-up-button1:hover {

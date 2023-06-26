@@ -44,3 +44,20 @@
     margin-top: -3cm;
     text-align: center;
   }
+  @media screen and (max-width:1280px) {
+    .o2{
+      margin-top: 3cm;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width:760){
+    .mai2{
+      overflow-y: scroll;
+    }
+  }
+  .a2{
+    height: 6cm;
+    width: 11cm;
+    margin-right: 78cm;
+    margin-top: 1.5cm;
+  }

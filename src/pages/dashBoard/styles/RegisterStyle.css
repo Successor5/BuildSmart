@@ -106,36 +106,22 @@
   }
 } */
 .mai{
-  background-color: rgb(21, 20, 20);
   border: solid 2pt rgb(17, 15, 15);
+  background-color:  rgb(17, 15, 15);
   overflow: hidden;
   color: rgb(240, 223, 223);
-  height: 98vh;
-}
+  height: 1000vh;
 
+}
 .w {
   font-size: small;
-}
-.last{
-  /* border:solid 2pt red; */
-  display:flex;
-  height:80.2vh;
-}
 
+}
 .a {
-  /* margin-left: 10px;
-  font-family: 'Times New Roman', Times, serif;
-  width: 234653cm;
-   */
   margin-bottom:2cm;
-  /* border: solid 2pt red; */
-  height: 8cm;
-  margin-left: 2cm;
+  height: 1cm;
+  margin-left: 1cm;
 }
-.single-line-input{
-  background-color: pink;
-}
-
 .b {
   font-size: larger;
   cursor: pointer;
@@ -146,16 +132,7 @@
 
 .log {
   width: 3cm;
-}
 
-.c {
-  margin-left: 10%;
-  width: 50%;
-  max-height: 8cm;
-  margin-right: 0px;
-  font-size: larger;
-  cursor: pointer;
-  float: right;
 }
 
 .single-line-input,
@@ -170,6 +147,7 @@
   width: 60%;
   border: none;
   outline: none;
+
 }
 
 .semiMain {
@@ -177,43 +155,27 @@
   width: 50%;
   margin: -2cm auto 0;
   height: 11cm;
-  /* border: solid 2pt red; */
-  margin-top: 3cm;
-  margin-right: 8cm;
-  
-}
-.sign-up-button {
-  background-color: rgb(7, 7, 6);
-  color: rgb(249, 248, 248);
-  border: none;
-  border-radius: 0.3cm;
-  padding: 0.5cm 1cm;
-  margin-top: -3cm;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease-in-out;
-  margin-right: -3cm;
-    /* border: solid 2pt red; */
-
-
+  margin-top: -4cm;
+  margin-right: 9cm;
 }
 
-.sign-up-button:hover {
-  transform: scale(1.05);
-}
 .o{
   border: solid 2pt black;
   width: 3cm;
-  margin-left: 5cm;
+  margin-left: -0.5cm;
   height: 1cm;
   background-color: yellow;
   border-radius: 0.6cm;
   color: black;
-
+  margin-top: -3cm;
 }
 
 @media screen and (max-width: 1024px) {
   .mai{
-    overflow: scroll;
+    overflow-y: scroll;
+    background-color:  rgb(17, 15, 15);
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
   .o{
     margin-left: 2cm;
@@ -226,13 +188,22 @@
   .b,
   .c,
   .d,
-  .semiMain,
-  .smallMain{
-    margin-top: -2cm;
-    width: 20cm;
+  
+  .semiMain{
+    margin-top: -3cm;
+    width: 15cm;
     display: center;
+    margin-left: 1cm;
+    height: 7cm;
   }
-  .single-line-input,
+  .single-line-input{
+    border-radius: 0.7cm;
+    width: 13cm;
+    height: 1.7cm;
+    width: 90%;
+    margin-top: 1cm;
+    font-size: x-large;
+  }
   .x,
   .y,
   .j {
@@ -240,8 +211,11 @@
     width: 90%;
     font-size: 90%;
     height:20%;
-     
-  
+    border-radius: 0.7cm;
+    width: 13cm;
+    height: 1.7cm;
+    width: 90%;
+    font-size: x-large;
   }
   .last{
     height: 20cm;
@@ -255,7 +229,10 @@
     float: right;
   }
 }
-
+.o{
+  margin-top: 11cm;
+  margin-right: 6cm;
+}
 @media screen and (max-width: 1366px) {
  
   .mai {
@@ -265,38 +242,52 @@
 
 @media screen and (max-width: 768px) {
   .mai{
-    overflow: scroll;
+    overflow: hidden;
     width: 9.4cm;
-    background-color: rgba(9, 9, 9, 0.969);
+    background-color: rgba(9, 9, 9, 0.858);
+    font-size: smaller;
   }
-    .a{
-      width: 7cm;
-      margin-right: 2cm;
-      height: 4cm;
-    }
-  .b,
   .c,
   .d,
-  .semiMain,
-  .smallMain{
-    width: 7cm;
-    height: 5cm;
-    margin: 0.1cm;
-    margin-left: 0.6cm;
-    margin-top: -1cm;
-    /* border: solid 2pt red; */
+  .a {
+    height: 0cm;
+    margin-left: 1cm;
+    margin-top: 7cm;
   }
-   .o{
-    margin-right: 87cm;
+  .log{
+    margin-bottom: -2cm;
+    border: solid 2pt red ;
 
+  }
+  .semiMain{
+    width: cm;
+    height: 3cm;
+    margin: 0.1cm;
+    margin-left: -0cm;
+    margin-top: -1cm;
+    font-size: small;
+    border: solid 2pt red ;
+  }
+  .a{
+    width: 5cm;
+    margin-right: 40cm;
+    margin-top: 1cm;
+    border: solid 2pt red ;
+  }
+  .o{
+    margin-right: 8cm;
+    margin-top: 5.5cm;
    }
   .single-line-input,
   .x,
   .y,
   .j {
-    margin: 0.4cm;
+    margin: 0cm;
     width: 90%;
     font-size: 80%;
+    height: 1cm;
+    margin-top: -4cm;
+    margin-left: 1cm;
 
   }
   .b {
@@ -311,6 +302,7 @@
   .mai{
     overflow: scroll;
     width: 10.9cm;
+    overflow-x: hidden;
     background-color: rgba(9, 9, 9, 0.969);
   }
   .a{
