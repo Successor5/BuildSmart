@@ -117,11 +117,11 @@
   font-size: small;
 
 }
-.a {
+/* .a {
   margin-bottom:2cm;
   height: 1cm;
   margin-left: 1cm;
-}
+} */
 .b {
   font-size: larger;
   cursor: pointer;
@@ -155,7 +155,7 @@
   width: 50%;
   margin: -2cm auto 0;
   height: 11cm;
-  margin-top: -4cm;
+  margin-top: 2cm;
   margin-right: 9cm;
 }
 
@@ -169,7 +169,6 @@
   color: black;
   margin-top: -3cm;
 }
-
 @media screen and (max-width: 1024px) {
   .mai{
     overflow-y: scroll;
@@ -181,149 +180,80 @@
     margin-left: 2cm;
     margin-top: 1cm;
   }
-  .a{
-    height: 10cm;
-    width: 12cm;
-  }
-  .b,
-  .c,
-  .d,
-  
+ 
   .semiMain{
-    margin-top: -3cm;
-    width: 15cm;
-    display: center;
+    margin-top: 6cm;
     margin-left: 1cm;
-    height: 7cm;
+    width: 19cm;
+    height: 16cm;
   }
-  .single-line-input{
-    border-radius: 0.7cm;
-    width: 13cm;
-    height: 1.7cm;
-    width: 90%;
-    margin-top: 1cm;
-    font-size: x-large;
-  }
-  .x,
-  .y,
-  .j {
-    margin: 0.4cm;
-    width: 90%;
-    font-size: 90%;
-    height:20%;
-    border-radius: 0.7cm;
-    width: 13cm;
-    height: 1.7cm;
-    width: 90%;
-    font-size: x-large;
-  }
-  .last{
-    height: 20cm;
-    display:contents
-  }
-
-  .b {
-    margin-right: 9888cm;
-    font-size: larger;
-    cursor: pointer;
-    float: right;
-  }
+.x{
+  height: 2cm;
+  border-radius: 1cm;
+  width: 85%;
+  margin: 0.2cm;
+}
+.j{
+  height: 2cm;
+  border-radius: 1cm;
+  width: 85%;
+  margin: 0.2cm;
+}
+.y{
+  height: 2cm;
+  border-radius: 1cm;
+  width: 85%;
+  margin: 0.2cm;
+}
+.single-line-input{
+  height: 2cm;
+  border-radius: 1cm;
+  width: 85%;
+  margin: 0.2cm;
 }
 .o{
-  margin-top: 11cm;
-  margin-right: 6cm;
+  margin-right: 2cm;
+  width: 6cm;
+  height: 2cm;
 }
-@media screen and (max-width: 1366px) {
- 
-  .mai {
-    height: 100vh;
-  }
+.log{
+  margin-top: 1cm;
 }
-
-@media screen and (max-width: 768px) {
-  .mai{
-    overflow: hidden;
-    width: 9.4cm;
-    background-color: rgba(9, 9, 9, 0.858);
-    font-size: smaller;
-  }
-  .c,
-  .d,
-  .a {
-    height: 0cm;
-    margin-left: 1cm;
-    margin-top: 7cm;
-  }
-  .log{
-    margin-bottom: -2cm;
-    border: solid 2pt red ;
-
-  }
-  .semiMain{
-    width: cm;
-    height: 3cm;
-    margin: 0.1cm;
-    margin-left: -0cm;
-    margin-top: -1cm;
-    font-size: small;
-    border: solid 2pt red ;
-  }
-  .a{
-    width: 5cm;
-    margin-right: 40cm;
-    margin-top: 1cm;
-    border: solid 2pt red ;
-  }
-  .o{
-    margin-right: 8cm;
-    margin-top: 5.5cm;
-   }
-  .single-line-input,
-  .x,
-  .y,
-  .j {
-    margin: 0cm;
-    width: 90%;
-    font-size: 80%;
-    height: 1cm;
-    margin-top: -4cm;
-    margin-left: 1cm;
-
-  }
-  .b {
-    margin-right: 9888cm;
-    font-size: larger;
-    cursor: pointer;
-    float: right;
-  }
 }
-
-@media screen and (max-width: 414px){
+@media screen and (max-width:768px) {
   .mai{
     overflow: scroll;
-    width: 10.9cm;
-    overflow-x: hidden;
-    background-color: rgba(9, 9, 9, 0.969);
+    height: 100vh;
   }
-  .a{
-    margin-right: 5cm;
+  .semiMain{
+    margin-right: 40cm;
+    width: 7.5cm;
+    margin-top: 0.7cm;
+    height: 14cm;
   }
-  .smallMain{
-    margin-right: 92cm;
-    width: 1cm;
-    border: solid 2pt blue;
-  }
-  .j{
-    width: 6.3cm;
-    margin-right:61cm;
-  }
-  .x{
-    width: 6.3cm;
-    margin-right:91cm;
-  }
-  .y{
-    width: 6.3cm;
-    margin-right:91cm;
-   
-  }
+  
+.x{
+  height: 1.6cm;
+  border-radius: 0.6cm;
+  width: 100%;
+  margin: 0.1cm;
+}
+.j{
+  height: 1.6cm;
+  border-radius: 0.6cm;
+  width: 100%;
+  margin: 0.1cm;
+}
+.y{
+  height: 1.6cm;
+  border-radius: 0.6cm;
+  width: 100%;
+  margin: 0.1cm;
+}
+.single-line-input{
+  height: 1.6cm;
+  border-radius: 0.6cm;
+  width: 100%;
+  margin: 0.1cm;
+}
 }

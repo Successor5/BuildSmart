@@ -67,7 +67,6 @@ function Register() {
         </h1>
       </div>
       <div className="last">
-        <img src={picture} alt="" className="a" />
         <div className="semiMain">
           <h3 className="text">UserName</h3>
           <input
@@ -77,6 +76,15 @@ function Register() {
             placeholder="Enter text"
             value={username}
             onChange={handleUsernameChange}
+          />
+           <h3>Email</h3>
+          <input
+            type="email"
+            id="emailInput"
+            className="x"
+            placeholder="Enter Email"
+            value={email}
+            onChange={handleEmailChange}
           />
           <h3 className="text2">PhoneNumber</h3>
           <input
@@ -88,15 +96,7 @@ function Register() {
             value={phoneNumber}
             onChange={handlePhoneNumberChange}
           />
-          <h3>Email</h3>
-          <input
-            type="email"
-            id="emailInput"
-            className="x"
-            placeholder="Enter Email"
-            value={email}
-            onChange={handleEmailChange}
-          />
+         
           <h3 className="text1">Password</h3>
           <input
             type="password"
